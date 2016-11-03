@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML5新增标签</title>
+	</head>
+	<body>
+		<header>头部</header>
+		<nav>导航</nav>
+		<article>文章</article>
+		<section>文章的节和段</section>
+		<aside>附属部分</aside>
+		<footer>底部</footer>
+		<!--定义选项列表datalist-->
+		<input type="text" list="taglist"/>
+		<datalist id="taglist">
+			<option>苹果</option>
+			<option >苹果</option>
+			<option >苹果</option>
+			<option >苹果</option>
+			<option >苹果</option>
+			<option >苹果</option>			
+		</datalist>
+		
+		<!--<detaila></detaila>-->
+		<address>存放地址信息</address>
+		<progress value="4" max="10">进度条</progress>
+		
+		
+		<!--新增表单元素-->
+		<input type="email" />
+		<input type="submit" />
+		<input type="color" />
+		<input type="date" />
+		<input type="text" list="aa"/>
+		
+		<!--筛选属性autocomplete-->
+		<form autocomplete="on">
+		<datalist id="aa">
+			<option>山西</option>
+			<option>上海</option>
+			<option>南极</option>
+			<option>杭州</option>			
+		</datalist>
+		</form>
+		<!--自动获取焦点autofocus-->
+		<input type="text" autofocus="autofocus" />
+		<!--file上传控件  可以上传多个文件multiple-->
+		<input type="file" multiple="multiple"/>
+		<form>
+		<!--验证-->
+		<input type="text" pattern="{0-9}{6}"/>
+		<input type="submit" />
+		</form>
+	</body>
+</html>
